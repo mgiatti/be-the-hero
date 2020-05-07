@@ -37,7 +37,6 @@ async function create(request, response) {
 }
 
 async function remove(request, response) {
-    console.log("entrou");
     const { id } = request.params;
     const ong_id = request.headers.authorization;
 
